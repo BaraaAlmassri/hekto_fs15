@@ -63,6 +63,61 @@ body {
 
 /* end header */
 
+/* start hero */
+
+.hero{
+    background-color: #F2F0FF;
+    padding: 50px 0 ;
+}
+
+.hero-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 60% ;
+}
+
+
+
+.hero-content .hero-lamp{
+    position: relative;
+    right: 130px;
+    bottom: 127px;
+    width: 25%;
+}
+
+.hero-img{
+    flex: 1 0 30% ;
+}
+
+.hero-img img {
+    width: 100% ;
+}
+
+.hero-text .primary-color{
+    color: var(--primaryColor);
+}
+
+.hero-text .para-color{
+    color: #8A8FB9;
+}
+
+@media screen and (max-width:1200px) {
+    .hero-content .hero-lamp{
+        display: none;
+    }
+    .hero .row {
+        flex-direction: column;
+        gap:75px;
+    }
+    .hero-img img {
+        width: 70%;
+        margin-left: 60px;
+    }
+}
+
+
+/* end hero */
+
 /* start featured-product */
 
 
