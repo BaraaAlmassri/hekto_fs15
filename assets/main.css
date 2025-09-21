@@ -270,7 +270,14 @@ body {
 .leatest-products .l-list  {
   color: #151875;
   margin-bottom: 60px;
+  overflow-x:auto ;
 }
+
+.l-list li {
+    width: calc((100% - 180px ) / 4);
+}
+
+
 
 .leatest-products .active-2 {
     color: var(--primaryColor);
