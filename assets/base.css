@@ -78,21 +78,30 @@ ul {
     align-items: center;
 }
 
-.gap-100{
-    gap:100px;
-}
-
-.gap-21 {
-    gap: 21px;
+.gap-10 {
+    gap: 10px;
 }
 
 .gap-12 {
     gap: 12px;
 }
 
+.gap-21 {
+    gap: 21px;
+}
+
 .gap-50 {
     gap: 50px;
 }
+
+.gap-60 {
+    gap: 60px;
+}
+
+.gap-100{
+    gap:100px;
+}
+
 
 .padding-100{
     padding:100px 0;
